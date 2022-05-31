@@ -106,7 +106,7 @@ footer{
     margin: 0 auto;
 }
 
-h3{
+.footer-title{
     width: 100%;
     font-weight: 800;
     font-size: 25px;
@@ -119,6 +119,13 @@ h3{
 
 .spesial{
     text-align: left;
+    width: 100%;
+    font-weight: 800;
+    font-size: 25px;
+    color: #121212;
+    line-height: 50px;
+    margin-bottom: 30px;
+    text-decoration: underline;
 }
 
 .pencet{
@@ -134,6 +141,7 @@ a.pencet1{
     text-decoration: none;
     line-height: 30px;
     margin-bottom: 0px;
+    color: #121212;
 }
 
 a.pencet-1{
@@ -142,6 +150,7 @@ a.pencet-1{
     text-decoration: none;
     line-height: 30px;
     margin-bottom: 0px;
+    color: #121212;
 }
 
 a.pencet1:hover{
