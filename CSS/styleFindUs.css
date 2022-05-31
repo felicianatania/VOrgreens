@@ -11,7 +11,7 @@
     height: 500px;
 }
 
-.line{
+.orange-section .line{
     margin-top: 2.8%;
     border-right: 2px solid #121212;
     padding: 1%;
@@ -21,7 +21,7 @@
     margin-left: 10%;
 }
 
-.place{
+.orange-section .place{
     height: 300px;
 }
 
@@ -37,12 +37,12 @@
     margin-left: 20%;
 }
 
-.orange-box .tulisan{
+.orange-section .tulisan{
     margin-top: 2.5%;
     margin-left: 50%;
 }
 
-.tulisan hr{
+.orange-section .tulisan hr{
     width: 80px;
     margin-left: 40%;
     margin-bottom: 4%;
@@ -70,4 +70,51 @@
 
 .clear{
     height: 500px;
+}
+
+.yellow-section{
+    margin-top: 2%;
+    position: relative;
+    height: 500px;
+}
+
+.yellow-section .line{
+    margin-top: 2.8%;
+    border-left: 2px solid #121212;
+    padding: 1%;
+    padding-left: 3.5%;
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    margin-left: 50%;
+}
+
+.yellow-section .place{
+    height: 300px;
+}
+
+.yellow-box{
+    background: rgba(255, 228, 131, 0.8);
+    border-radius: 30px;
+    padding: 3%;
+    text-align: center;
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 10%;
+}
+
+.yellow-section .tulisan{
+    margin-top: 2.5%;
+    margin-right: 50%;
+}
+
+.yellow-section .tulisan hr{
+    width: 80px;
+    margin-left: 40%;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    border-top: 1px solid #121212;
+    background: rgba(255, 202, 122, 0.80);
 }
