@@ -1,0 +1,40 @@
+.section{
+    background-image: url("../assets/contactUs.jpg");
+    padding: 15%;
+}
+
+.orange-box{
+    border-radius: 30px;
+    background: rgba(255, 202, 122, 0.8);
+    padding: 5%;
+}
+
+form > input{
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+    background: #F9E1E1;
+    padding: 10px;
+}
+
+form textarea{
+    border: none;
+    border-radius: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+    background: #F9E1E1;
+    padding: 10px;
+}
+
+form .gender .gender-box{
+    background: #F9E1E1;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+form .gender .gender-box > input{
+    margin-bottom: 20px;
+}
