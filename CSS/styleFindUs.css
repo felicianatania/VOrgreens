@@ -12,6 +12,11 @@
     height: 500px;
 }
 
+.orange-section:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
 .orange-section .line{
     margin-top: 2.8%;
     border-right: 2px solid #121212;
@@ -77,6 +82,11 @@
     margin-top: 2%;
     position: relative;
     height: 500px;
+}
+
+.yellow-section:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
 }
 
 .yellow-section .line{

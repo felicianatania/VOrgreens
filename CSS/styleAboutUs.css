@@ -18,6 +18,11 @@
     border-radius: 30px;
 }
 
+.big-orange:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
 .aboutUs p{
     justify-content: center;
     align-items: center;
@@ -53,6 +58,11 @@
     position: absolute;
 }
 
+.history .big-white:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
 .history p{
     width: 85%;
     text-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -65,6 +75,11 @@
     height: 250px;
     margin-top: 15%;
     margin-left: 60%;
+}
+
+.history img:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
 }
 
 /* SECTION 3 */
@@ -137,6 +152,21 @@
     transition: 0.5s;
 }
 
+.card:hover .desc{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    color: #F4F4F4;
+}
+
+.card:hover .numbers{
+    transform: translateY(-10px);
+    transition: 0.5s;
+    text-shadow: -1px 1px 0 rgb(255, 255, 255),
+                        1px 1px 0 rgb(255, 255, 255),
+                        1px -1px 0 rgb(255, 255, 255),
+                        -1px -1px 0 rgb(255, 255, 255);
+}
+
 .card .numbers{
     font-size: 10rem;
     color: rgba(255, 202, 122, 0.80);
@@ -145,7 +175,16 @@
                         1px -1px 0 #000,
                         -1px -1px 0 #000;
     /* text-shadow: 0 0 3px #121212, 0 0 5px #121212; */
+}
 
+.card .numbers:hover{
+    font-size: 10rem;
+    color: rgba(255, 202, 122, 0.80);
+    text-shadow: -1px 1px 0 rgb(255, 255, 255),
+                        1px 1px 0 rgb(255, 255, 255),
+                        1px -1px 0 rgb(255, 255, 255),
+                        -1px -1px 0 rgb(255, 255, 255);
+    /* text-shadow: 0 0 3px #121212, 0 0 5px #121212; */
 }
 
 .desc{
