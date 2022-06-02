@@ -12,7 +12,7 @@ a.button{
     font-size: 20px;
     background: #FFCA7A;
     font-weight: bold;
-    border-radius: 50px;
+    border-radius: 30px;
     padding: 7px 30px 7px 30px;
     color: #121212;
     cursor: pointer;
@@ -60,15 +60,15 @@ a.button:hover{
 .parts{
     width: 20%;
     background-color: #FFE6A7;
-    border-radius: 50px;
+    border-radius: 30px;
     margin: 0 auto 30px auto;
 }
 
 .gambar img{
     width: 100%;
     text-align: center;
-    border-top-right-radius: 50px;
-    border-top-left-radius: 50px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
     height: 160px;
 }
 
