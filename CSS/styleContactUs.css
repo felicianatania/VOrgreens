@@ -35,7 +35,7 @@ form textarea{
     border: none;
     border-radius: 10px;
     width: 80%;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background: #F4F4F4;
     padding: 10px;
 }
@@ -56,6 +56,16 @@ form .gender{
     margin: auto;
     text-align: left;
     width: 80%;
+}
+
+form .konten{
+    margin: auto;
+    text-align: left;
+    width: 80%;
+    font-size: 14px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-style: italic;
 }
 
 .submit{
