@@ -76,3 +76,9 @@ form .konten{
     height: 30px;
     font-weight: 600;
 }
+
+#err-name {
+    color : red;
+    font-size: 14px;
+    font-style: italic;
+}

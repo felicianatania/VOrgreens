@@ -29,8 +29,10 @@
         <div class="orange-box">
             <h1>Contact Us</h1>
             <form action="">
-                <input type="text" placeholder="Name">
-                <input type="email" name="" id="" placeholder="Email">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <br>
+                <label id="err-name"></label>
+                <input type="email" name="email" id="email" placeholder="Email">
                 <div class="gender">
                     <div class="gender-box">
                         <input type="radio" name="gender" id="male" class="input-radio">
@@ -43,11 +45,11 @@
                 </div>
                 <textarea id="message" name="message" rows="4" cols="50" placeholder="Message"></textarea>
                 <div class="konten">
-                    <input type="checkbox">
+                    <input type="checkbox" id="term">
                     <label for="">I Agree to Subscribe VOgreens Newsletter</label>
                 </div>
                 <div class="btn-submit">
-                    <button class="submit" type="submit">Submit</button>
+                    <button class="submit" type="submit" onclick="ValidateData()">Submit</button>
                 </div>
             </form>
         </div>
@@ -87,6 +89,6 @@
         </div>
     </footer>
 
-    <script src="validation.js"></script>
+    <script src="../JS/validation.js"></script>
 </body>
 </html>
