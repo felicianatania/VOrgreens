@@ -170,40 +170,114 @@
     .yellow-section .tulisan hr{
         margin-left: 32%;
     }
-    /* .orange-box{
-        background: rgba(255, 202, 122, 0.80);
-        border-radius: 30px;
-        padding: 3%;
+}
+
+@media (max-width: 414px){
+    .title{
+        margin-bottom: 0;
+        margin-left: 0;
         text-align: center;
+    }
+    .orange-section{
+        margin: auto;
+        border-radius: 30px;
         width: 70%;
-        height: 300px;
-        position: absolute;
-        z-index: 1;
-        margin-left: 20%;
-    }
-
-    .orange-section .place{
-        height: 150px;
-    }
-
-    .tulisan .main{
         font-size: 0.7rem;
+        height: 450px;
+        position: unset;
+        background: rgba(255, 202, 122, 0.80);
+        margin-bottom: 7%;
+    }
+    .orange-box{
+        height: 260px;
+        position:unset;
+        margin: auto;
+        text-align: center;
+        background: rgba(241, 235, 235, 0.6);
+    }
+    .orange-section .line{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        position:unset;
+        border: none;
+    }
+    .orange-section .place{
+        margin-top: 5%;
+        height: 130px;
+        text-align: center;
+    }
+    .orange-section .tulisan{
+        margin-top: 2.5%;
+        margin: auto;
+    }
+    .orange-section .tulisan hr{
+        width: 80px;
+        margin-left: 35%;
+        margin-bottom: 4%;
+        margin-top: 4%;
+        border-top: 1px solid #121212;
+        background: rgba(255, 202, 122, 0.80);
+    }
+    
+    .tulisan .main{
         font-weight: 500;
         margin-top: 3%;
         margin-bottom: 3%;
     }
-
+    
     .tulisan .sub-main{
-        font-size: 0.7rem;
         font-weight: normal;
         margin-top: 3%;
         margin-bottom: 3%;
     }
     
     .details{
-        font-size: 0.7rem;
         padding-right: 30%;
         padding-left: 30%;
         margin-bottom: 5%;
-    } */
+    }
+
+    .yellow-section{
+        margin: auto;
+        border-radius: 30px;
+        width: 70%;
+        font-size: 0.7rem;
+        height: 450px;
+        position: unset;
+        background: rgba(255, 228, 131, 0.8);
+        margin-bottom: 7%;
+    }
+    .yellow-box{
+        height: 260px;
+        position:unset;
+        margin: auto;
+        text-align: center;
+        background: rgba(241, 235, 235, 0.6);
+    }
+    .yellow-section .line{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        position:unset;
+        border: none;
+    }
+    .yellow-section .place{
+        margin-top: 5%;
+        height: 130px;
+        text-align: center;
+    }
+    .yellow-section .tulisan{
+        margin-top: 2.5%;
+        margin: auto;
+    }
+    .yellow-section .tulisan hr{
+        width: 80px;
+        margin-left: 35%;
+        margin-bottom: 4%;
+        margin-top: 4%;
+        border-top: 1px solid #121212;
+        background: rgba(255, 202, 122, 0.80);
+    }
+    
 }

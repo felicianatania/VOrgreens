@@ -215,7 +215,7 @@
         position: unset;
         height: 200px;
         margin-left: 62%;
-        margin-bottom: 5%
+        margin-bottom: 5%;
     }
 
     .visi .visi-background p{
@@ -230,5 +230,74 @@
     }
     .desc{
         font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 414px){
+    .aboutUs .big-orange{
+        width: 70%;
+    }
+    .aboutUs p{
+        font-size: 0.7rem;
+    }
+    .history{
+        margin-top: 100px;
+        background: #FFD15C;
+        padding: 2%;
+        height: auto;
+    }
+    
+    .history .big-white{
+        background: #F4F4F4;
+        padding: 3%;
+        width: 55%;
+        margin: auto;
+        margin-top: 2%;
+        margin-left: 9%;
+        border-radius: 30px;
+        text-align: center;
+    }
+    
+    .history p{
+        width: 85%;
+        font-size: 0.7rem;
+        text-align: center;
+        margin: auto;
+    }
+
+    .history img{
+        position: unset;
+        height: 150px;
+        margin-left: 62%;
+        margin-top: 30%;
+        margin-bottom: 50%;
+    }
+
+    .visi .visi-background p{
+        font-size: 0.7rem;
+    }
+
+    .card-wrap{
+        display: unset;
+        min-height: 100px;
+        width: 100%;
+    }
+    .card{
+        border-radius: 30px;
+        height: 200px;
+        width: 50%;
+        padding: 10px 25px;
+        background: rgba(255, 202, 122, 0.80);
+        margin: auto;
+        margin-bottom: 10px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    }
+    .card .numbers{
+        font-size: 5rem;
+        margin-top: 0;
+    }
+    .desc{
+        font-size: 0.7rem;
+        width: 100%;
     }
 }

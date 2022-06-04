@@ -81,3 +81,18 @@ form .konten{
     font-size: 14px;
     font-style: italic;
 }
+
+@media (max-width: 414px){
+    .orange-box h1{
+        font-size: 2rem;
+    }
+    form .gender .gender-box{
+        font-size: 12px;
+    }
+    form ::placeholder{
+        font-size: 12px;
+    }
+    form label{
+        font-size: 12px;
+    }
+}

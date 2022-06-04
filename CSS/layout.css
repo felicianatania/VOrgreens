@@ -29,7 +29,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 18px 4%;
+    padding: 10px 4%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -229,7 +229,7 @@ a.pencet-1:hover{
     .nav-links a{
         display: block;
         padding: 8px 8px 8px 32px;
-        font-size: 25px;
+        font-size: 15px;
         color: #121212;
         transition: 0.3s;
         text-decoration: none;
