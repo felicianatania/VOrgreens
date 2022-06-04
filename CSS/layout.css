@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
     font-family: 'poppins', sans-serif;
 }
 
@@ -20,60 +24,45 @@ nav{
     position: fixed;
     z-index: 3;
     top: 0;
+    right: 0;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 100px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-nav:after{
-    content: '';
-    clear: both;
-    display: table;
-}
-
-nav .logo{
-    float: left;
-    padding-left: 60px;
-    padding-top: 7px;
-}
-
-nav .logo .tulisan{
-    text-decoration: none;
-    color: #FFCA7A;
+.logo{
+    margin-right: auto;
     font-size: 1.5rem;
     font-weight: 600;
+    color: #FFCA7A;
 }
 
-nav ul{
-    float: right;
-    list-style: none;
-    margin-right: 20px;
+.nav-links{
     position: relative;
+    display: flex;
 }
 
-nav ul li{
-    display: inline-flex;
-    margin: 0 5px;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: #121212;
-    line-height: 55px;
+.nav-links a{
+    padding: 10px 20px;
     font-size: 0.9rem;
     font-weight: 500;
-    padding: 0 15px;
+    color: #121212;
 }
 
-nav ul li a:hover{
+.nav-links a:hover{
     background: #121212;
     border-radius: 0px;
     color: #FFCA7A;
-    transition: all 0.s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
-nav ul li:hover > ul{
-    /* opacity: 1; */
-    visibility: visible;
+#menu-icon{
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
 }
 
 /* footer */
@@ -177,8 +166,39 @@ a.pencet-1:hover{
 
 @media (max-width: 768px) {
     /* header */
+    header{
+        padding: 11px 4%;
+    }
 
+    #menu-icon{
+        display: initial;
+    }
 
+    nav .nav-links{
+        position: absolute;
+        top: -500px;
+        left: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: #F9F9F9;
+        transition: all 0.2s ease-in-out;
+        text-align: center;
+    }
+
+    .nav-links a{
+        display: block;
+        padding: 1.5rem;
+    }
+
+    .nav-links.active{
+        top: 100%;
+    }
+
+    .nav-links a:hover{
+        color: #FFCA7A;
+        background: #121212;
+    }
 
     /* footer */
     .wrap{

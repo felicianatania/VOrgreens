@@ -13,12 +13,13 @@ a.button{
     background: #FFCA7A;
     font-weight: bold;
     border-radius: 30px;
-    padding: 7px 30px 7px 30px;
     color: #121212;
     cursor: pointer;
+    display: block;
 }
 
 a.button:hover{
+    display: block;
     background-color: #FFD390;
     transform: translateY(-10px);
     transition: 0.5s;
@@ -53,8 +54,8 @@ a.button:hover{
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 4%;
+    padding-right: 4%;
 }
 
 .parts{
@@ -91,6 +92,7 @@ a.button:hover{
     padding-right: 8%;
     text-align: justify;
     font-weight: 400;
+    height: 90px;
 }
 
 .desc .invis{
@@ -102,28 +104,41 @@ a.button:hover{
     color: #FFE6A7;
 }
 
-.bxs-star{
-    color: #F6E120;
-    position: absolute;
-    font-size: 16px;
-    padding-left: 13%;
-    padding-top: 5px;
+.desc .merge{
+    display: block;
+    text-align: left;
+    padding-right: 7%;
 }
 
-.desc .rate{
+.desc .merge .rate{
+    float: right;
     font-size: 10px;
-    position: absolute;
+    padding-top: 2%;
     font-weight: bold;
-    padding-left: 14.5%;
-    padding-top: 5px;
+}
+
+.bxs-star{
+    color: #F6E120;
+    font-size: 16px;
+    padding-top: 2%;
+    float: right;
 }
 
 .desc .text-button{
     padding-top: 13%;
     padding-bottom: 8%;
+    display: block;
+    padding-right: 7%;
+    text-align: center;
 }
 
 .desc .text-button a.button{
     font-size: 14px;
-    padding: 7px 75px 7px 75px;
+    padding: 3% 0% 3% 0%;
+}
+
+@media (max-width: 768px){
+    .parts{
+        width: 40%;
+    }
 }
