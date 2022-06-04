@@ -32,7 +32,7 @@
 
 /* SECTION 2 */
 .history{
-    margin-top: 100px;
+    margin-top: 5%;
     height: 550px;
     background: #FFD15C;
     padding: 2%;
@@ -171,16 +171,6 @@
     /* text-shadow: 0 0 3px #121212, 0 0 5px #121212; */
 }
 
-.card .numbers:hover{
-    font-size: 10rem;
-    color: rgba(255, 202, 122, 0.80);
-    text-shadow: -1px 1px 0 rgb(255, 255, 255),
-                        1px 1px 0 rgb(255, 255, 255),
-                        1px -1px 0 rgb(255, 255, 255),
-                        -1px -1px 0 rgb(255, 255, 255);
-    /* text-shadow: 0 0 3px #121212, 0 0 5px #121212; */
-}
-
 .desc{
     width: 70%;
     margin-bottom: 25px;
@@ -189,4 +179,43 @@
     font-weight: 550;
     text-align: center;
     margin: auto;
+}
+
+/*Responsive*/
+@media (max-width: 768px){
+    .history{
+        margin-top: 100px;
+        background: #FFD15C;
+        padding: 2%;
+        height: auto;
+    }
+    
+    .history .big-white{
+        background: #F4F4F4;
+        padding: 3%;
+        width: 55%;
+        margin: auto;
+        margin-top: 2%;
+        border-radius: 30px;
+        text-align: center;
+    }
+    
+    .history p{
+        width: 85%;
+        font-size: 0.8rem;
+        margin: auto;
+        text-align: center;
+    }
+
+    .history img{
+        position: unset;
+        height: 200px;
+    }
+
+    .card .numbers{
+        font-size: 7rem;
+    }
+    .desc{
+        font-size: 0.8rem;
+    }
 }
