@@ -168,6 +168,41 @@ a.pencet-1:hover{
     padding-left: 24%;
 }
 
+@media (max-width: 1083px){
+    /* footer */
+    .wrap{
+        width: 76%;
+    }
+
+    .footer-section{
+        text-align: center;
+        width: 50%;
+    }
+
+    .spesial{
+        text-align: center;
+    }
+
+    #abt{
+        text-align: center;
+        padding-left: 0;
+    }
+    
+    #fnd{
+        text-align: center;
+        padding-left: 0;
+    }
+    
+    #ctc{
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .medsos{
+        margin-bottom: 50px;
+    }
+}
+
 @media (max-width: 768px) {
     /* header */
     nav{
@@ -215,44 +250,52 @@ a.pencet-1:hover{
 
     .nav-links .close:hover{
         color: #FFCA7A;
-    background: none;
+        background: none;
     }
 
     .nav-links a:hover{
         color: #FFCA7A;
         background: #121212;
     }
+}
 
-    /* footer */
-    .wrap{
-        width: 76%;
+@media (max-width: 549px){
+    .nav-links a{
+        font-size: 18px;
     }
 
+    .nav-links .close{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 374px){
     .footer-section{
-        text-align: center;
-        width: 50%;
+        width: 100%;
+        margin-bottom: 50px;
     }
 
-    .spesial{
-        text-align: center;
-    }
-
-    #abt{
-        text-align: center;
-        padding-left: 0;
-    }
-    
-    #fnd{
-        text-align: center;
-        padding-left: 0;
-    }
-    
-    #ctc{
-        text-align: center;
-        padding-left: 0;
+    .footer-section:last-child{
+        margin-bottom: 0;
     }
 
     .medsos{
-        margin-bottom: 50px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 345px){
+    .nav-links.active{
+        width: 200px;
+    }
+}
+
+@media (max-width: 311px) {
+    .nav-links a{
+        font-size: 14px;
+    }
+
+    .nav-links .close{
+        font-size: 30px;
     }
 }
