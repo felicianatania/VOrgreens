@@ -134,18 +134,41 @@
 @media (max-width: 768px){
     .orange-section{
         width: 90%;
+        font-size: 0.8rem;
+        height: 400px;
     }
-    
+    .orange-box{
+        height: 320px;
+    }
+    .orange-section .line{
+        margin-top: 10%;
+    }
     .orange-section .place{
         height: 150px;
+    }
+    .orange-section .tulisan hr{
+        margin-left: 32%;
     }
 
     .yellow-section{
         width: 90%;
+        font-size: 0.8rem;
+        height: 400px;
     }
-
     .yellow-section .place{
         height: 150px;
+    }
+    .yellow-box{
+        height: 320px;
+    }
+    .yellow-section .line{
+        margin-top: 10%;
+    }
+    .yellow-section .place{
+        height: 150px;
+    }
+    .yellow-section .tulisan hr{
+        margin-left: 32%;
     }
     /* .orange-box{
         background: rgba(255, 202, 122, 0.80);

@@ -183,6 +183,9 @@
 
 /*Responsive*/
 @media (max-width: 768px){
+    .aboutUs p{
+        font-size: 0.8rem;
+    }
     .history{
         margin-top: 100px;
         background: #FFD15C;
@@ -196,6 +199,7 @@
         width: 55%;
         margin: auto;
         margin-top: 2%;
+        margin-left: 9%;
         border-radius: 30px;
         text-align: center;
     }
@@ -203,15 +207,24 @@
     .history p{
         width: 85%;
         font-size: 0.8rem;
-        margin: auto;
         text-align: center;
+        margin: auto;
     }
 
     .history img{
         position: unset;
         height: 200px;
+        margin-left: 62%;
+        margin-bottom: 5%
     }
 
+    .visi .visi-background p{
+        font-size: 0.8rem;
+    }
+
+    .card{
+        height: 380px;
+    }
     .card .numbers{
         font-size: 7rem;
     }
