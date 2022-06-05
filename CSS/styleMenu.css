@@ -119,6 +119,19 @@ footer{
     margin-top: -20px;
 }
 
+.nama-menu-cat{
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 35px;
+    font-weight: 800;
+    text-decoration: underline;
+    margin-top: -3%;
+}
+
+#nama-cat1{
+    margin-top: -1%;
+}
+
 @media (max-width: 1014px){
     .parts{
         width: 30%;
@@ -138,5 +151,13 @@ footer{
 
     .nama-menu{
         padding-top: 20%;
+    }
+
+    .nama-menu-cat{
+        margin-top: 10%;
+    }
+
+    #nama-cat1{
+        margin-top: 5%;
     }
 }
