@@ -236,6 +236,36 @@
     }
 }
 
+@media (max-width:540px){
+    .aboutUs .big-orange{
+        width: 70%;
+    }
+    .aboutUs p{
+        font-size: 0.7rem;
+    }
+    .history{
+        height: 450px;
+    }
+    .history img{
+        height: 150px;
+    }
+    .history p{
+        font-size: 0.7rem;
+    }
+    .card{
+        height: 330px;
+    }
+    .card .numbers{
+        font-size: 6rem;
+    }
+    .desc{
+        font-size: 0.7rem;
+    }
+    .misi{
+        margin-bottom: 50px;
+    }
+}
+
 @media (max-width: 414px){
     .aboutUs .big-orange{
         width: 70%;
@@ -243,38 +273,7 @@
     .aboutUs p{
         font-size: 0.7rem;
     }
-    /* .history{
-        margin-top: 100px;
-        background: #FFD15C;
-        padding: 2%;
-        height: auto;
-    }
     
-    .history .big-white{
-        background: #F4F4F4;
-        padding: 3%;
-        width: 55%;
-        margin: auto;
-        margin-top: 2%;
-        margin-left: 9%;
-        border-radius: 30px;
-        text-align: center;
-    }
-    
-    .history p{
-        width: 85%;
-        font-size: 0.7rem;
-        text-align: center;
-        margin: auto;
-    }
-
-    .history img{
-        position: unset;
-        height: 150px;
-        margin-left: 62%;
-        margin-top: 30%;
-        margin-bottom: 50%;
-    } */
     .history{
         margin-top: 40px;
         background: #FFD15C;
