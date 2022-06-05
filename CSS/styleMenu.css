@@ -35,20 +35,6 @@ a.button:hover{
     font-weight: bold;
 }
 
-.p-menu1{
-    padding-bottom: 5%;
-    text-align: center;
-    background-size: 100%;
-}
-
-.p-menu1 p{
-    font-weight: bold;
-}
-
-.p-menu1 .kolom{
-    margin-bottom: -5%;
-}
-
 .kolom{
     width: 100%;
     position: relative;
@@ -59,10 +45,11 @@ a.button:hover{
 }
 
 .parts{
-    width: 20%;
+    width: 22%;
     background-color: #FFE6A7;
     border-radius: 30px;
     margin: 0 auto 30px auto;
+    margin-bottom: 5%;
 }
 
 .gambar img{
@@ -93,15 +80,6 @@ a.button:hover{
     text-align: justify;
     font-weight: 400;
     height: 90px;
-}
-
-.desc .invis{
-    font-size: 10px;
-    padding-left: 8%;
-    padding-right: 8%;
-    text-align: justify;
-    font-weight: 400;
-    color: #FFE6A7;
 }
 
 .desc .merge{
@@ -137,8 +115,28 @@ a.button:hover{
     padding: 3% 0% 3% 0%;
 }
 
+footer{
+    margin-top: -20px;
+}
+
+@media (max-width: 1014px){
+    .parts{
+        width: 30%;
+    }
+}
+
 @media (max-width: 768px){
     .parts{
         width: 40%;
+    }
+}
+
+@media (max-width: 500px){
+    .parts{
+        width: 80%;
+    }
+
+    .nama-menu{
+        padding-top: 20%;
     }
 }
