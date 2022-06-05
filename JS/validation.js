@@ -6,7 +6,7 @@ function ValidateData(){
     var errname = document.getElementById("err-name")
     if(name==""){
         //alert("Name can not be empty");
-        errname.innerHTML = "name cannot be empty"
+        errname.innerHTML = "Name cannot be empty"
         validated = false;
     }
 
@@ -43,14 +43,16 @@ function ValidateData(){
     var errmessage = document.getElementById("err-message")
     if(message==""){
         //alert("Please write your message");
-        errmessage.innerHTML = "message cannot be empty"
+        errmessage.innerHTML = "Message cannot be empty"
         validated = false;
     }
 
     //Term
-    var Term = document.getElementById("term");
+    var term = document.getElementById("term")
+    var errterm = document.getElementById("err-term")
     if(term.checked == false){
         //alert("Must accept terms & conditions")
+        errterm.innerHTML = "You must subsribe to send us messages"
         validated = false
     }
 
@@ -60,3 +62,8 @@ function ValidateData(){
         alert('Failed')
     }
 }
+
+document.getElementById("submit").addEventListener("click", ()=>{
+    event.preventDefault();
+})
+

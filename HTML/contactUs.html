@@ -31,9 +31,13 @@
             <h1>Contact Us</h1>
             <form action="">
                 <input type="text" name="name" id="name" placeholder="Name">
-                <br>
-                <label id="err-name"></label>
+                <div class="error-container">
+                    <div class="error" id="err-name"></div>
+                </div>
                 <input type="email" name="email" id="email" placeholder="Email">
+                <div class="error-container">
+                    <div class="error" id="err-email"></div>
+                </div>
                 <div class="gender">
                     <div class="gender-box">
                         <input type="radio" name="gender" id="male" class="input-radio">
@@ -44,13 +48,22 @@
                         <label for="female">Female</label>
                     </div>
                 </div>
+                <div class="error-container">
+                    <div class="error" id="err-gender"></div>
+                </div>
                 <textarea id="message" name="message" rows="4" cols="50" placeholder="Message"></textarea>
+                <div class="error-container">
+                    <div class="error" id="err-message"></div>
+                </div>
                 <div class="konten">
                     <input type="checkbox" id="term">
                     <label for="">I Agree to Subscribe VOgreens Newsletter</label>
                 </div>
+                <div class="error-container">
+                    <div class="error" id="err-term"></div>
+                </div>
                 <div class="btn-submit">
-                    <button class="submit" type="submit" onclick="ValidateData()">Submit</button>
+                    <button class="submit" id="submit" onclick="ValidateData()">Submit</button>
                 </div>
             </form>
         </div>
