@@ -71,6 +71,7 @@
     height: 250px;
     margin-top: 15%;
     margin-left: 60%;
+    z-index: 2;
 }
 
 .history img:hover{
@@ -202,6 +203,7 @@
         margin-left: 9%;
         border-radius: 30px;
         text-align: center;
+        z-index: 1;
     }
     
     .history p{
@@ -240,7 +242,7 @@
     .aboutUs p{
         font-size: 0.7rem;
     }
-    .history{
+    /* .history{
         margin-top: 100px;
         background: #FFD15C;
         padding: 2%;
@@ -271,10 +273,48 @@
         margin-left: 62%;
         margin-top: 30%;
         margin-bottom: 50%;
+    } */
+    .history{
+        margin-top: 40px;
+        background: #FFD15C;
+        padding: 2%;
+        padding-bottom: 10%;
+        height: auto;
+        position: unset;
+    }
+
+    .history h1{
+        margin-bottom: 15px;
+    }
+    
+    .history .big-white{
+        position: unset;
+        background: #F4F4F4;
+        padding: 3%;
+        width: 75%;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 30px;
+        text-align: center;
+    }
+    
+    .history p{
+        width: 85%;
+        font-size: 0.5rem;
+        text-align: center;
+        margin: auto;
+    }
+
+    .history img{
+        position: unset;
+        display: block;
+        height: 120px;
+        margin: auto;
+        text-align: center;
     }
 
     .visi .visi-background p{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
 
     .card-wrap{
@@ -297,7 +337,7 @@
         margin-top: 0;
     }
     .desc{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         width: 100%;
     }
 }
