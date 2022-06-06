@@ -8,6 +8,8 @@ function ValidateData(){
         //alert("Name can not be empty");
         errname.innerHTML = "Name cannot be empty"
         validated = false;
+    }else{
+        errname.innerHTML = ''
     }
 
     //Email
@@ -17,14 +19,22 @@ function ValidateData(){
         errEmail.innerHTML = "Email cannot be empty";
         validated = false;
     } else if(email.startsWith('@') || email.endsWith('@')){
-        errEmail.innerHTML = "Email can't start or end with @"
+        errEmail.innerHTML = "Email can't start or end with '@'"
         validated = false
     } else if(email.startsWith('.') || email.endsWith('.')){
-        errEmail.innerHTML = "Email can't start or end with ."
+        errEmail.innerHTML = "Email can't start or end with '.'"
         validated = false
     } else if(email.indexOf("@.") > -1 || email.indexOf('.@') > -1){
-        errEmail.innerHTML = "@ dan . cannot be side by side"
+        errEmail.innerHTML = "'@' and '.' cannot be side by side"
         validated = false
+    } else if(!email.includes("@")){
+        errEmail.innerHTML = "Must contain '@'"
+        validated = false
+    } else if(!(email.endsWith(".com") || email.endsWith(".co.id"))){
+        errEmail.innerHTML = "Must end with '.com' or '.co.id'"
+        validated = false
+    } else{
+        errEmail.innerHTML = ''
     }
 
     
@@ -34,9 +44,11 @@ function ValidateData(){
     var errGender = document.getElementById("err-gender")
     if(male.checked==false && female.checked==false){
         //alert('Please choose a gender');
-        errGender.innerHTML= 'Please choose a gender'
+        errGender.innerHTML = 'Please choose a gender'
         validated = false
-    }  
+    } else{
+        errGender.innerHTML = ''
+    } 
 
     //Message
     var message = document.getElementById("message").value
@@ -45,6 +57,8 @@ function ValidateData(){
         //alert("Please write your message");
         errmessage.innerHTML = "Message cannot be empty"
         validated = false;
+    }else{
+        errmessage.innerHTML = ''
     }
 
     //Term
@@ -54,6 +68,8 @@ function ValidateData(){
         //alert("Must accept terms & conditions")
         errterm.innerHTML = "You must subsribe to send us messages"
         validated = false
+    }else{
+        errterm.innerHTML = ''
     }
 
     if(validated){
@@ -62,8 +78,4 @@ function ValidateData(){
         alert('Failed')
     }
 }
-
-document.getElementById("submit").addEventListener("click", ()=>{
-    event.preventDefault();
-})
 

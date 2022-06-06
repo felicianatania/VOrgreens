@@ -30,15 +30,15 @@
         <div class="orange-box">
             <h1>Contact Us</h1>
             <form action="">
-                <input type="text" name="name" id="name" placeholder="Name">
+                <input type="text" name="name" id="name" placeholder="Name" required>
                 <div class="error-container">
                     <div class="error" id="err-name"></div>
                 </div>
-                <input type="email" name="email" id="email" placeholder="Email">
+                <input type="email" name="email" id="email" placeholder="Email" required>
                 <div class="error-container">
                     <div class="error" id="err-email"></div>
                 </div>
-                <div class="gender">
+                <div class="gender" required>
                     <div class="gender-box">
                         <input type="radio" name="gender" id="male" class="input-radio">
                         <label for="male">Male</label>
@@ -51,12 +51,12 @@
                 <div class="error-container">
                     <div class="error" id="err-gender"></div>
                 </div>
-                <textarea id="message" name="message" rows="4" cols="50" placeholder="Message"></textarea>
+                <textarea id="message" name="message" rows="4" cols="50" placeholder="Message" required></textarea>
                 <div class="error-container">
                     <div class="error" id="err-message"></div>
                 </div>
                 <div class="konten">
-                    <input type="checkbox" id="term">
+                    <input type="checkbox" id="term" required>
                     <label for="">I Agree to Subscribe VOgreens Newsletter</label>
                 </div>
                 <div class="error-container">
