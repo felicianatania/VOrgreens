@@ -1,7 +1,9 @@
 .nama-menu{
-    padding: 10% 0 10% 6%;
+    padding-top: 10%;
+    padding-bottom: 7%;
     font-size: 45px;
     font-weight: 800;
+    text-align: center;
 }
 
 .button{
@@ -119,6 +121,19 @@ footer{
     margin-top: -20px;
 }
 
+.nama-menu-cat{
+    text-align: center;
+    margin-bottom: 3%;
+    /* font-size: 35px; */
+    /* font-weight: 800; */
+    text-decoration: underline;
+    margin-top: -3%;
+}
+
+.text-orange{
+    color: #FFAD32;
+}
+
 @media (max-width: 1014px){
     .parts{
         width: 30%;
@@ -138,5 +153,9 @@ footer{
 
     .nama-menu{
         padding-top: 20%;
+    }
+
+    .nama-menu-cat{
+        margin-top: 10%;
     }
 }
