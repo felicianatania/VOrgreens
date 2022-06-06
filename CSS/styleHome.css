@@ -192,7 +192,7 @@ a.button:hover{
 }
 
 .navigation-auto{
-    position: relative;
+    position: absolute;
     width: 89.05%;
     display: flex;
     flex-wrap: wrap;
